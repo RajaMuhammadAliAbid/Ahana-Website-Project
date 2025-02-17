@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 03</title>
+   <!-- Swiper CDN -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link href="index.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.font-awesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+                                     <!-- Header Top -->
+        <div class="header-info">
+            <!-- Address Part -->
+            <label class="address">
+                <i class="fa-solid fa-map-location"></i>
+                <p>184 Main Collins Street</p>
+            </label>
+            <!-- Number Part -->
+            <label class="number">
+                <i class="fa-solid fa-phone"></i>
+                <p>(965) 436 3274</p>
+            </label>
+            <!-- Time Part -->
+            <label class="time">
+                <i class="fa-regular fa-clock"></i>
+                <p>Mon - Fri:  6:30am - 07:45pm</p>
+            </label>
+            <!-- Language Part -->
+            <label class="language">
+                <i class="fa-solid fa-globe"></i>
+                <p>Language</p>
+                <select name="language">
+                    <option>EN</option>
+                    <option>ES</option>
+                    <option>JA</option>
+                    <option>AR</option>
+                </select>
+            </label>
+        </div>
+    </header>
+
+                               <!-- Heros Section  -->
+    <section>
+        <div class="header-bottom">
+            <label class="logo">
+            <a href="index.html">
+				    <img src="images/logo.png.webp" alt="logo">
+			      </a>
+            </label>
+            <!-- Menu Text -->
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="classes.html">CLASSES</a>
+                    <div class="sub-menu">
+                        <a href="classes.html">Our Classes</a>
+                        <span><a href="classes.html">Classes Details</a></span>
+                    </div>
+                </li>
+                <li><a href="trainer.html">TRAINERS</a>
+                    <div class="sub-menu">
+                        <a href="trainer.html">Our Trainers</a>
+                        <span><a href="trainer.html">Trainers Details</a></span>
+                    </div>
+                </li>
+                <li><a href="events.html">EVENTS</a>
+                    <div class="sub-menu">
+                        <a href="events.html">Our Events</a>
+                        <span><a href="events.html">Events Details</a></span>
+                    </div>
+                </li>
+                <li><a href="blog.html">BLOG</a>
+                    <div class="sub-menu">
+                        <a href="blog.html">Our Blog</a>
+                        <span><a href="blog.html">Blog Details</a></span>
+                    </div>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <div class="bottom"></div>
+              </ul>
+              <!-- Search Icon -->
+            <label class="search-icon">
+                <img src="images/search.png.webp" alt="search-icon">  
+            </label>
+
+            <!-- Off Screen Menu -->
+            <div class="off-screen-menu">
+              <!-- Text Part -->
+              <div class="text">
+                <img src="images/logo-2.webp" alt="logo-2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                   elit, sed do eiusmod tempor incididunt.</p>
+              </div>
+              <!-- Image First Row -->
+              <div class="image">
+                <img src="images/gallery-1.webp" alt="gallery-1">
+                <img src="images/gallery-2.webp" alt="gallery-2">
+                <img src="images/gallery-3.webp" alt="gallery-3">
+              </div>
+              <!-- Image Second Row -->
+              <div class="image">
+                <img src="images/gallery-4.webp" alt="gallery-4">
+                <img src="images/gallery-5.webp" alt="gallery-5">
+                <img src="images/gallery-6.webp" alt="gallery-6">
+              </div>
+            </div>
+
+            <!-- Hamburger Menu Icon  -->
+            <div class="ham-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            
+        </div>
+                            <!-- Sticky Navigation Bar -->
+        <nav>          
+            <input type="checkbox" id="check" name="" value="">
+            <label for="check" id="checkbtn"><i class="fas fa-bars"></i></label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="trainer.html">Trainers</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+                             
+                            <!-- Heros Section -->
+       <div class="heros-image">
+          <div class="swiper MySwiper2">
+            <div class="swiper-wrapper">
+              <!-- First Heros Image -->
+              <div class="swiper-slide">
+                <div class="first-heros-image">
+                  <img src="images/hero-1.webp" alt="hero-1">
+                </div>
+              </div>
+              <!-- Second Heros Image -->
+              <div class="swiper-slide">
+                <div class="second-heros-image">
+                  <img src="images/hero-2.webp" alt="hero-2">
+                </div>
+                <!-- Text Part -->
+                <div class="second-heros-text">
+                  <h2>Get slim and <br>
+                      toned with <br>
+                      yoga</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+                     sed do eiusmod tempor incididunt ut labore et dolore <br>
+                     magna aliqua. Ut enim ad minim veniam, quis nos-trud <br>
+                     exercitation ullamco laboris nisi ut aliquip ex ea <br>
+                     commodo consequat. </p>
+                </div>
+                <!-- Button Part -->
+                <div class="second-heros-button">
+                  <a href="#">Register Now</a>
+                </div>
+            
+              </div>
+              <!-- Third Heros Image -->
+              <div class="swiper-slide">
+                <!-- Text -->
+              <div class="third-heros-text">
+                <h2>Reduce Your Stress</h2>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam <br>
+                   rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi.</p>
+
+                   <div class="third-heros-button">
+                    <a href="#">Register Now</a>
+                  </div>   
+              </div>
+
+              <div class="third-heros-image">
+                <img src="images/hero-3.webp" alt="hero-3">
+              </div>
+
+              </div>
+          
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+    </section>
+
+                             <!-- Welcome Section -->
+    <div class="welcome-section">
+        <div class="text">
+            <img src="images/about-logo.webp" alt="about-logo">
+            <h2>Welcome to Ahana</h2>
+            <p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+        </div>
+
+        <div class="welcome-album">
+        <div class="welcome-image">
+            <img src="images/about.png.webp" alt="about-Image">
+        </div>
+
+        <div class="image-item">
+            <div class="ai-image">
+                <img src="images/about-1.png.webp" alt="about-1">
+            </div>
+            <div class="ai-text">
+                <h4>Full Rejuvenation</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in <br>
+                   culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+            <!-- Second Item List -->
+            <div class="second-ai-image">
+                <img src="images/about-2.png.webp" alt="about-2">
+            </div>
+            <div class="second-ai-text">
+                <h4>Extension of Spring</h4>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit <br>
+                   voluptatem a cusantium doloremque.</p>
+            </div>
+
+            <!-- Third Item List -->
+            <div class="third-ai-image">
+                <img src="images/about-3.png.webp" alt="about-3">
+            </div>
+            <div class="third-ai-text">
+                <h4>Against Aging</h4>
+                <p>Nemo enim ipsam voluptatem quia voluptas sit <br>
+                   aspernatur aut odit aut fugit.</p>
+            </div>
+
+        </div>
+        <!-- Button Part -->
+        <div class="welcome-button">
+            <a href="#">Explore Mores</a>
+          </div>
+        </div>
+
+    </div>
+
+                         <!-- Popular Classes Section -->
+    <div class="classes-section">
+        <div class="text">
+            <img src="images/about-logo.webp" alt="about-logo">
+            <h2>Popular Classes</h2>
+            <p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+        </div>
+        <!-- Pricing Section -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <!-- First Album Card -->
+              <div class="swiper-slide">
+                <div class="first-swiper">
+                     <!-- Image -->
+                    <div class="first-img">
+                        <img src="images/1.img-slider.webp" alt="1.img-slider">
+                      </div> 
+                            <!-- Info Text -->
+                      <!-- Heading -->   
+                      <div class="info-text">
+                        <h4>Artistic Yoga</h4>
+                      </div>
+                            <!-- Info Time -->
+                      <div class="info-time">
+                        <!-- Calendar -->
+                        <label class="calendar">
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Mon,Wed,Fri</p>
+                        </label>
+                        <!-- Time -->
+                        <label class="time">
+                            <i class="fa-regular fa-clock"></i>
+                            <p>06:30pm - 07:45pm</p>
+                        </label>
+                      </div>
+                      <!-- Paragraph -->
+                      <div class="info-para">
+                        <p>Ut enim ad minima veniam, quis nostrum <br>
+                           exercitationem ullam corporis</p>
+                      </div>
+                      <hr>
+    
+                       <!-- Author Info -->
+                       <!-- Image -->
+                      <div class="author-image">
+                        <img src="images/author-1.webp" alt="author-1"> 
+                      </div>
+                      <!-- Text -->
+                      <div class="author-text">
+                        <h6>Victoria Webb</h6>
+                        <p>Yoga Trainer</p>
+                      </div>
+                      <!-- Button -->
+                      <div class="author-btn">
+                        <a href="#">Book Now</a>
+                      </div>
+                </div>
+              </div>
+
+               <!-- Second Album Card -->
+              <div class="swiper-slide">
+                <div class="first-swiper">
+                    <!-- Image -->
+                   <div class="first-img">
+                       <img src="images/2.img-slider.webp" alt="2.img-slider">
+                     </div> 
+                           <!-- Info Text -->
+                     <!-- Heading -->   
+                     <div class="info-text">
+                       <h4>Artistic Yoga</h4>
+                     </div>
+                           <!-- Info Time -->
+                     <div class="info-time">
+                       <!-- Calendar -->
+                       <label class="calendar">
+                           <i class="fa-regular fa-calendar"></i>
+                           <p>Mon,Wed,Fri</p>
+                       </label>
+                       <!-- Time -->
+                       <label class="time">
+                           <i class="fa-regular fa-clock"></i>
+                           <p>06:30pm - 07:45pm</p>
+                       </label>
+                     </div>
+                     <!-- Paragraph -->
+                     <div class="info-para">
+                       <p>Ut enim ad minima veniam, quis nostrum <br>
+                          exercitationem ullam corporis</p>
+                     </div>
+                     <hr>
+    
+                      <!-- Author Info -->
+                      <!-- Image -->
+                     <div class="author-image">
+                       <img src="images/author-2.webp" alt="author-2"> 
+                     </div>
+                     <!-- Text -->
+                     <div class="author-text">
+                       <h6>Victoria Webb</h6>
+                       <p>Yoga Trainer</p>
+                     </div>
+                     <!-- Button -->
+                     <div class="author-btn">
+                       <a href="#">Book Now</a>
+                     </div>
+               </div>
+              </div>
+
+               <!-- Third Album Card -->
+              <div class="swiper-slide">
+                <div class="first-swiper">
+                    <!-- Image -->
+                   <div class="first-img">
+                       <img src="images/3.img-slider.webp" alt="3.img-slider">
+                     </div> 
+                           <!-- Info Text -->
+                     <!-- Heading -->   
+                     <div class="info-text">
+                       <h4>Artistic Yoga</h4>
+                     </div>
+                           <!-- Info Time -->
+                     <div class="info-time">
+                       <!-- Calendar -->
+                       <label class="calendar">
+                           <i class="fa-regular fa-calendar"></i>
+                           <p>Mon,Wed,Fri</p>
+                       </label>
+                       <!-- Time -->
+                       <label class="time">
+                           <i class="fa-regular fa-clock"></i>
+                           <p>06:30pm - 07:45pm</p>
+                       </label>
+                     </div>
+                     <!-- Paragraph -->
+                     <div class="info-para">
+                       <p>Ut enim ad minima veniam, quis nostrum <br>
+                          exercitationem ullam corporis</p>
+                     </div>
+                     <hr>
+    
+                      <!-- Author Info -->
+                      <!-- Image -->
+                     <div class="author-image">
+                       <img src="images/author-3.webp" alt="author-3"> 
+                     </div>
+                     <!-- Text -->
+                     <div class="author-text">
+                       <h6>Victoria Webb</h6>
+                       <p>Yoga Trainer</p>
+                     </div>
+                     <!-- Button -->
+                     <div class="author-btn">
+                       <a href="#">Book Now</a>
+                     </div>
+               </div>
+              </div>
+
+               <!-- Fourth Album Card -->
+              <div class="swiper-slide">
+                <div class="first-swiper">
+                    <!-- Image -->
+                   <div class="first-img">
+                       <img src="images/2.img-slider.webp" alt="2.img-slider">
+                     </div> 
+                           <!-- Info Text -->
+                     <!-- Heading -->   
+                     <div class="info-text">
+                       <h4>Artistic Yoga</h4>
+                     </div>
+                           <!-- Info Time -->
+                     <div class="info-time">
+                       <!-- Calendar -->
+                       <label class="calendar">
+                           <i class="fa-regular fa-calendar"></i>
+                           <p>Mon,Wed,Fri</p>
+                       </label>
+                       <!-- Time -->
+                       <label class="time">
+                           <i class="fa-regular fa-clock"></i>
+                           <p>06:30pm - 07:45pm</p>
+                       </label>
+                     </div>
+                     <!-- Paragraph -->
+                     <div class="info-para">
+                       <p>Ut enim ad minima veniam, quis nostrum <br>
+                          exercitationem ullam corporis</p>
+                     </div>
+                     <hr>
+    
+                      <!-- Author Info -->
+                      <!-- Image -->
+                     <div class="author-image">
+                       <img src="images/author-2.webp" alt="author-2"> 
+                     </div>
+                     <!-- Text -->
+                     <div class="author-text">
+                       <h6>Victoria Webb</h6>
+                       <p>Yoga Trainer</p>
+                     </div>
+                     <!-- Button -->
+                     <div class="author-btn">
+                       <a href="#">Book Now</a>
+                     </div>
+               </div>
+              </div>
+
+               <!-- Fifth Album Card -->
+              <div class="swiper-slide">
+                <div class="first-swiper">
+                    <!-- Image -->
+                   <div class="first-img">
+                       <img src="images/3.img-slider.webp" alt="3.img-slider">
+                     </div> 
+                           <!-- Info Text -->
+                     <!-- Heading -->   
+                     <div class="info-text">
+                       <h4>Artistic Yoga</h4>
+                     </div>
+                           <!-- Info Time -->
+                     <div class="info-time">
+                       <!-- Calendar -->
+                       <label class="calendar">
+                           <i class="fa-regular fa-calendar"></i>
+                           <p>Mon,Wed,Fri</p>
+                       </label>
+                       <!-- Time -->
+                       <label class="time">
+                           <i class="fa-regular fa-clock"></i>
+                           <p>06:30pm - 07:45pm</p>
+                       </label>
+                     </div>
+                     <!-- Paragraph -->
+                     <div class="info-para">
+                       <p>Ut enim ad minima veniam, quis nostrum <br>
+                          exercitationem ullam corporis</p>
+                     </div>
+                     <hr>
+    
+                      <!-- Author Info -->
+                      <!-- Image -->
+                     <div class="author-image">
+                       <img src="images/author-3.webp" alt="author-3"> 
+                     </div>
+                     <!-- Text -->
+                     <div class="author-text">
+                       <h6>Victoria Webb</h6>
+                       <p>Yoga Trainer</p>
+                     </div>
+                     <!-- Button -->
+                     <div class="author-btn">
+                       <a href="#">Book Now</a>
+                     </div>
+               </div>
+              </div>
+    
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+    </div>
+
+                                   <!-- Trainer Section -->
+     <div class="trainer-section">
+        <div class="text">
+            <img src="images/about-logo.webp" alt="about-logo">
+            <h2>Our Trainer Yoga</h2>
+            <p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+        </div>
+
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+              <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            </div>
+            <!-- The slideshow/carousel -->
+            <div class="carousel-inner" style="justify-content: center; align-items: center; padding-left: 13%; padding-top: 50px;">
+                <div class="carousel-item active">
+                    <!-- First Image Slider -->
+                    <div class="trainer-slider">
+                      <label class="trainer-text">
+                        <h4>Lori Kennedy</h4>
+                        <h6>Yoga Trainer</h6>
+                        <p>Yoga &amp; Therapy Certificate of <br>
+                           Uttarakhand University Sanskrit</p>
+                      </label>
+                      <label class="trainer-image">
+                        <img src="images/trainer-1.webp" alt="trainer-1">
+                      </label>
+                    </div>
+
+                    <!-- Second Image Slider -->
+                    <div class="second-trainer-slider">
+                      <label class="trainer-text">
+                        <h4>Lori Kennedy</h4>
+                        <h6>Yoga Trainer</h6>
+                        <p>Yoga &amp; Therapy Certificate of <br>
+                           Uttarakhand University Sanskrit</p>
+                      </label>
+                      <label class="trainer-image">
+                        <img src="images/trainer-2.webp" alt="trainer-2">
+                      </label>
+                    </div>
+
+                </div>
+
+              <div class="carousel-item">
+                  <!-- Third Image Slider -->
+                  <div class="trainer-slider">
+                    <label class="trainer-text">
+                      <h4>Lori Kennedy</h4>
+                      <h6>Yoga Trainer</h6>
+                      <p>Yoga &amp; Therapy Certificate of <br>
+                         Uttarakhand University Sanskrit</p>
+                    </label>
+                    <label class="trainer-image">
+                      <img src="images/trainer-3.webp" alt="trainer-3">
+                    </label>
+                  </div>
+                  <!-- Fourth Image Slider -->
+                  <div class="second-trainer-slider">
+                    <label class="trainer-text">
+                      <h4>Lori Kennedy</h4>
+                      <h6>Yoga Trainer</h6>
+                      <p>Yoga &amp; Therapy Certificate of <br>
+                         Uttarakhand University Sanskrit</p>
+                    </label>
+                    <label class="trainer-image">
+                      <img src="images/trainer-1.webp" alt="trainer-1">
+                    </label>
+                  </div>
+
+                </div>
+             
+            </div>
+            
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span style="background-color: #0A8CFF; border-radius: 50%; padding: 20px 20px 20px 20px; margin-top: 40px;" class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span style="background-color: #0A8CFF; border-radius: 50%; padding: 20px 20px 20px 20px; margin-top: 40px;" class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+     </div>
+
+                                      <!-- Review Section -->
+     <div class="review-section">
+
+      <div class="swiper MySwiper">
+        <div class="swiper-wrapper">
+
+          <!-- First Review Part -->
+          <div class="swiper-slide">
+            <div class="review-image">
+              <img src="images/review-1.webp" alt="review-1">
+            </div>
+            <div class="review-text">
+              <p>On the other hand, we denounce with righteous indignation and dislike men who are so <br>
+                 beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, <br>
+                 that they cannot foresee the pain and trouble that are bound to ensue; and equal blame <br>
+                 belongs to those who fail in their duty through weakness.</p>
+              <h4>Denise Thomas</h4>
+              <h6>Designer</h6>   
+            </div>
+          </div>
+
+          <!-- Second Review Part -->
+          <div class="swiper-slide">
+            <div class="review-image">
+              <img src="images/review-2.webp" alt="review-2">
+            </div>
+            <div class="review-text">
+              <p>On the other hand, we denounce with righteous indignation and dislike men who are so <br>
+                 beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, <br>
+                 that they cannot foresee the pain and trouble that are bound to ensue; and equal blame <br>
+                 belongs to those who fail in their duty through weakness.</p>
+              <h4>Denise Thomas</h4>
+              <h6>Designer</h6>   
+            </div>
+          </div>
+
+          <!-- Third Review Part -->
+          <div class="swiper-slide">
+            <div class="review-image">
+              <img src="images/review-3.webp" alt="review-3">
+            </div>
+            <div class="review-text">
+              <p>On the other hand, we denounce with righteous indignation and dislike men who are so <br>
+                 beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, <br>
+                 that they cannot foresee the pain and trouble that are bound to ensue; and equal blame <br>
+                 belongs to those who fail in their duty through weakness.</p>
+              <h4>Denise Thomas</h4>
+              <h6>Designer</h6>   
+            </div>
+          </div>
+        
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+     </div>
+
+                                  <!-- Event Section -->
+     <div class="event-section">
+      <div class="text">
+        <img src="images/about-logo.webp" alt="about-logo">
+        <h2>Upcoming Events</h2>
+        <p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+    </div>
+    <!-- Event Video Part -->
+    <div class="event-video">
+      <img src="images/video.jpg.webp" alt="video">
+      <a href="https://www.youtube.com/watch?v=vgv-hzTl5FA"><img src="images/play.png.webp" alt=""></a>
+    </div>
+    <!-- Event Item Part -->
+    <div class="event-item">
+      <!-- First Item -->
+      <div class="first-item">
+        <div class="event-image">
+          <img src="images/event-1.webp" alt="event-1">
+        </div>
+        <div class="event-text">
+          <h4>Lole White Yoga Tour</h4>
+          <ul>
+            <li><i class="fa-solid fa-user"></i> Kelly Alexander</li>
+            <li><i class="fa-regular fa-calendar"></i> 15 January, 2019</li>
+            <li><i class="fa-solid fa-map-location"></i>184 Main Collins Street</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Second Item -->
+      <div class="first-item">
+        <div class="event-image">
+          <img src="images/event-2.webp" alt="event-2">
+        </div>
+        <div class="event-text">
+          <h4>Free Yoga Madrid</h4>
+          <ul>
+            <li><i class="fa-solid fa-user"></i> Kelly Alexander</li>
+            <li><i class="fa-regular fa-calendar"></i> 15 January, 2019</li>
+            <li><i class="fa-solid fa-map-location"></i>184 Main Collins Street</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Third Item -->
+      <div class="first-item">
+        <div class="event-image">
+          <img src="images/event-3.webp" alt="event-3">
+        </div>
+        <div class="event-text">
+          <h4>One Love Dallas</h4>
+          <ul>
+            <li><i class="fa-solid fa-user"></i> Kelly Alexander</li>
+            <li><i class="fa-regular fa-calendar"></i> 15 January, 2019</li>
+            <li><i class="fa-solid fa-map-location"></i>184 Main Collins Street</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+     </div>
+
+                                 <!-- Pricing Section -->
+     <div class="pricing-section">
+      <div class="text">
+        <img src="images/about-logo.webp" alt="about-logo">
+        <h2>Pricing plans</h2>
+        <p>Practice Yoga to perfect physical beauty, take care of your soul and enjoy life more fully!</p>
+    </div>
+
+    <!-- First Pricing Part -->
+    <div class="album">
+      <div class="pricing-first-album">
+        <!-- Pricing Top -->
+        <div class="pi-top">
+          <h4>Begginer</h4>
+        </div>
+        <div class="pi-price">
+          <h3>$59</h3>
+          <p>Per month</p>
+        </div>
+        <!-- Pricing List  -->
+        <ul>
+          <li>Take Up To 7 Classes</li>
+          <li>Available To Anyone</li>
+          <li>Towels Included</li>
+          <li>Never Expires</li>
+        </ul>
+        <!-- Pricing Button -->
+        <div class="pricing-button">
+          <a href="#">Get Started</a>
+        </div>
+
+      </div>
+    </div>
+    <!-- Second Pricing Part -->
+    <div class="album">
+      <div class="pricing-first-album">
+        <!-- Pricing Top -->
+        <div class="second-pi-top">
+          <h4>Entermediate</h4>
+        </div>
+        <div class="pi-price">
+          <h3>$99</h3>
+          <p>Per month</p>
+        </div>
+         <!-- Pricing List  -->
+        <ul>
+          <li>Take Up To 7 Classes</li>
+          <li>Available To Anyone</li>
+          <li>Towels Included</li>
+          <li>Never Expires</li>
+        </ul>
+        <!-- Pricing Button -->
+        <div class="pricing-button">
+          <a href="#">Get Started</a>
+        </div>
+
+      </div>
+    </div>
+    <!-- Third Pricing Part -->
+    <div class="album">
+      <div class="pricing-first-album">
+        <!-- Pricing Top -->
+        <div class="third-pi-top">
+          <h4>Advanced</h4>
+        </div>
+        <div class="pi-price">
+          <h3>$159</h3>
+          <p>Per month</p>
+        </div>
+         <!-- Pricing List  -->
+        <ul>
+          <li>Take Up To 7 Classes</li>
+          <li>Available To Anyone</li>
+          <li>Towels Included</li>
+          <li>Never Expires</li>
+        </ul>
+        <!-- Pricing Button -->
+        <div class="pricing-button">
+          <a href="#">Get Started</a>
+        </div>
+
+      </div>
+    </div>
+    <!-- Fourth Pricing Part -->
+    <div class="album">
+      <div class="pricing-first-album">
+        <!-- Pricing Top -->
+        <div class="fourth-pi-top">
+          <h4>Professional</h4>
+        </div>
+        <div class="pi-price">
+          <h3>$199</h3>
+          <p>Per month</p>
+        </div>
+         <!-- Pricing List  -->
+        <ul>
+          <li>Take Up To 7 Classes</li>
+          <li>Available To Anyone</li>
+          <li>Towels Included</li>
+          <li>Never Expires</li>
+        </ul>
+        <!-- Pricing Button -->
+        <div class="pricing-button">
+          <a href="#">Get Started</a>
+        </div>
+
+      </div>
+    </div>
+
+     </div>
+
+                                    <!-- SignUp Section -->
+     <div class="signup-section">
+      <div class="signup-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33245.297803635964!2d-73
+        .76987401620775!3d40.704774398815005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c
+        24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1575866843291
+        !5m2!1sen!2sbd" style="border:0;" allowfullscreen=""></iframe>
+      </div>
+
+      <div class="signup-text">
+        <h3>Sign Up for Our Classes</h3>
+        <p>To be invited to the nearest Cali center and get free physical advice to <br>
+           learn more about the program.</p>
+      </div>
+
+      <!-- SignUp Form -->
+      <div class="signup-form">
+        <div class="form-name">
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name">
+        </div>
+
+        <div class="form-email">
+          <input type="text" placeholder="Your Email">
+          <input type="text" placeholder="Phone Number">
+        </div>
+
+        <div class="form-message">
+          <textarea placeholder="Message"></textarea>
+        </div>
+
+        <div class="form-button">
+          <a href="#">Get Started</a>
+        </div>
+
+      </div>
+     </div>
+
+                        <!-- Gallery Section -->
+     <div class="gallery-section">
+      <img src="images/gallery-1.webp" alt="gallery-1">
+      <img src="images/gallery-2.webp" alt="gallery-2">
+      <img src="images/gallery-3.webp" alt="gallery-3">
+      <img src="images/gallery-4.webp" alt="gallery-4">
+      <img src="images/gallery-5.webp" alt="gallery-5">
+      <img src="images/gallery-6.webp" alt="gallery-6">
+     </div>
+
+                         <!-- Footer Section -->
+     <div class="footer-section">
+      <!-- Colums Section -->
+      <div class="footer-colums">
+           <!-- First Colums -->
+       <div class="first-text">
+          <img src="images/footer-logo.webp" alt="footer-logo">
+          <p>Lorem ipsum dolor sit amet, consec- <br>
+             tetur adipiscing elit sed.</p>
+             <ul>
+              <li><i class="fa-solid fa-phone"></i>(965) 436 3274</li>
+              <li><i class="fa-solid fa-envelope"></i>ahana.yoga@gmail.com</li>
+              <li><i class="fa-solid fa-map-location"></i>184 Main Collins Street</li>
+            </ul>
+       </div>
+    
+       <!-- Second Colums -->
+       <div class="second-text">
+          <h2>Company</h2>
+          <ul class="list-link">
+              <li><a href="#">Online Education</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Special Issues</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+       </div>
+    
+        <!-- Third Colums -->
+        <div class="third-text">
+          <h2>About Us</h2>
+          <ul class="list-link-third">
+            <li><a href="#">Our Vision</a></li>
+            <li><a href="#">Our Mission</a></li>
+            <li><a href="#">Meet The Team</a></li>
+            <li><a href="#">Introduce</a></li>
+            <li><a href="#">Customer Service</a></li>
+          </ul>
+       </div>
+    
+        <!-- Fourth Colums -->
+        <div class="fourth-text">
+          <h2>Open Time</h2>
+          <ul>
+            <li><i class="fa-regular fa-clock"></i>Mon - Fri:  6:30am - 07:45pm</li>
+            <li><i class="fa-regular fa-clock"></i>Sat - Sun:  8:30am - 05:45pm</li>
+          </ul>
+        </div>
+      </div>      
+    </div>
+
+
+    <!-- JavaScript Swiper CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="index.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 03</title>
+   <!-- Swiper CDN -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link href="blog.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.font-awesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+     <header>
+                                     <!-- Header Top -->
+        <div class="header-info">
+            <!-- Address Part -->
+            <label class="address">
+                <i class="fa-solid fa-map-location"></i>
+                <p>184 Main Collins Street</p>
+            </label>
+            <!-- Number Part -->
+            <label class="number">
+                <i class="fa-solid fa-phone"></i>
+                <p>(965) 436 3274</p>
+            </label>
+            <!-- Time Part -->
+            <label class="time">
+                <i class="fa-regular fa-clock"></i>
+                <p>Mon - Fri:  6:30am - 07:45pm</p>
+            </label>
+            <!-- Language Part -->
+            <label class="language">
+                <i class="fa-solid fa-globe"></i>
+                <p>Language</p>
+                <select name="language">
+                    <option>EN</option>
+                    <option>ES</option>
+                    <option>JA</option>
+                    <option>AR</option>
+                </select>
+            </label>
+        </div>
+    </header>
+
+
+                               <!-- Heros Section  -->
+    <section>
+        <div class="header-bottom">
+            <label class="logo">
+            <a href="index.html">
+			<img src="images/logo.png.webp" alt="logo">
+			</a>
+            </label>
+            <!-- Menu Text -->
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="classes.html">CLASSES</a>
+                    <div class="sub-menu">
+                        <a href="classes.html">Our Classes</a>
+                        <span><a href="classes.html">Classes Details</a></span>
+                    </div>
+                </li>
+                <li><a href="trainer.html">TRAINERS</a>
+                    <div class="sub-menu">
+                        <a href="trainer.html">Our Trainers</a>
+                        <span><a href="trainer.html">Trainers Details</a></span>
+                    </div>
+                </li>
+                <li><a href="events.html">EVENTS</a>
+                    <div class="sub-menu">
+                        <a href="events.html">Our Events</a>
+                        <span><a href="events.html">Events Details</a></span>
+                    </div>
+                </li>
+                <li><a href="blog.html">BLOG</a>
+                    <div class="sub-menu">
+                        <a href="blog.html">Our Blog</a>
+                        <span><a href="blog.html">Blog Details</a></span>
+                    </div>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <div class="bottom"></div>
+              </ul>
+              <!-- Search Icon -->
+            <label class="search-icon">
+                <img src="images/search.png.webp" alt="search-icon">  
+            </label>
+
+             <!-- Off Screen Menu -->
+            <div class="off-screen-menu">
+                <!-- Text Part -->
+                <div class="text">
+                  <img src="images/logo-2.webp" alt="logo-2">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>
+                     elit, sed do eiusmod tempor incididunt.</p>
+                </div>
+                <!-- Image First Row -->
+                <div class="image">
+                  <img src="images/gallery-1.webp" alt="gallery-1">
+                  <img src="images/gallery-2.webp" alt="gallery-2">
+                  <img src="images/gallery-3.webp" alt="gallery-3">
+                </div>
+                <!-- Image Second Row -->
+                <div class="image">
+                  <img src="images/gallery-4.webp" alt="gallery-4">
+                  <img src="images/gallery-5.webp" alt="gallery-5">
+                  <img src="images/gallery-6.webp" alt="gallery-6">
+                </div>
+              </div>
+  
+              <!-- Hamburger Menu Icon  -->
+              <div class="ham-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+        </div>
+                            <!-- Sticky Navigation Bar -->
+        <nav>
+            <input type="checkbox" id="check" name="" value="">
+            <label for="check" id="checkbtn"><i class="fas fa-bars"></i></label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="trainer.html">Trainers</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Text Part -->
+        <div class="about-text">
+            <h2>Blog Gird</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
+               incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </section>
+
+                                <!-- Course Benefit -->
+    <div class="course-benefit">
+        <!-- 1st Pricing Section -->
+        <!-- First Album -->
+         <div class="album">
+            <div class="first-album">
+                <!-- Image -->
+                <div class="first-img">
+                    <img src="about-img/course-1.webp" alt="course-1">
+                  </div>
+                  <!-- Info Text -->
+                <div class="info-text">
+                    <h2><a href="#">Yoga for Slim Physique</a></h2>
+                    <p>Regular practice with breathing tech- <br>
+                       niques in Yoga will help you get a toned <br>
+                       body, this is the perfect choice</p> <br>
+                </div>
+                <!-- Info Footer -->
+                <div class="info-footer">
+                    <div class="bi-cata">
+                        Health & Beauty
+                        <span></span>
+                    </div>
+                <!-- Social Media Icon -->    
+                <div class="bi-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>    
+                </div>
+
+            </div>
+         </div>
+        
+        <!-- Second Album -->
+         <div class="album">
+            <div class="first-album">
+                <!-- Image -->
+                <div class="first-img">
+                    <img src="about-img/course-2.webp" alt="course-2">
+                  </div>
+                   <!-- Info Text -->
+                  <div class="info-text">
+                    <h2><a href="#">The Perfect Dose</a></h2>
+                    <p>To take a trivial example, which of us ever <br>
+                       undertakes laborious physical exercise, <br>
+                       except to obtain</p> <br>
+                </div>
+                <!-- Info Footer -->
+                <div class="info-footer">
+                    <div class="bi-cata">
+                        Health & Beauty
+                        <span></span>
+                    </div>
+                <!-- Social Media Icon -->    
+                <div class="bi-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>    
+                </div>
+
+            </div>
+         </div>
+        
+        <!-- Third Album -->
+         <div class="album">
+            <div class="first-album">
+                <!-- Image -->
+                <div class="first-img">
+                    <img src="about-img/course-3.webp" alt="course-3">
+                  </div>
+                   <!-- Info Text -->
+                  <div class="info-text">
+                    <h2><a href="#">Flexible Body</a></h2>
+                    <p>At vero eos et accusamus et iusto odio <br>
+                       dignissimos ducimus qui blanditiis prae- <br>
+                       sentium voluptatum deleniti</p> <br>
+                </div>
+                <!-- Info Footer -->
+                <div class="info-footer">
+                    <div class="bi-cata">
+                        Health & Beauty
+                        <span></span>
+                    </div>
+                <!-- Social Media Icon -->    
+                <div class="bi-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>    
+                </div>
+
+            </div>
+         </div>
+         
+         <!-- 2nd Pricing Section -->
+        <!-- First Album -->
+        <div class="album">
+            <div class="first-album">
+                <!-- Image -->
+                <div class="first-img">
+                    <img src="about-img/course-4.webp" alt="course-4">
+                  </div>
+                  <!-- Info Text -->
+                <div class="info-text">
+                    <h2><a href="#">The Secret to Improving</a></h2>
+                    <p>Regular practice with breathing tech- <br>
+                       niques in Yoga will help you get a toned <br>
+                       body, this is the perfect choice</p> <br>
+                </div>
+                <!-- Info Footer -->
+                <div class="info-footer">
+                    <div class="bi-cata">
+                        Health & Beauty
+                        <span></span>
+                    </div>
+                <!-- Social Media Icon -->    
+                <div class="bi-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>    
+                </div>
+
+            </div>
+         </div>
+        
+        <!-- Second Album -->
+         <div class="album">
+            <div class="first-album">
+                <!-- Image -->
+                <div class="first-img">
+                    <img src="about-img/course-5.webp" alt="course-5">
+                  </div>
+                   <!-- Info Text -->
+                  <div class="info-text">
+                    <h2><a href="#">Movements for Slim</a></h2>
+                    <p>To take a trivial example, which of us ever <br>
+                       undertakes laborious physical exercise, <br>
+                       except to obtain</p> <br>
+                </div>
+                <!-- Info Footer -->
+                <div class="info-footer">
+                    <div class="bi-cata">
+                        Health & Beauty
+                        <span></span>
+                    </div>
+                <!-- Social Media Icon -->    
+                <div class="bi-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>    
+                </div>
+
+            </div>
+         </div>
+        
+        <!-- Third Album -->
+         <div class="album">
+            <div class="first-album">
+                <!-- Image -->
+                <div class="first-img">
+                    <img src="about-img/course-6.webp" alt="course-6">
+                  </div>
+                   <!-- Info Text -->
+                  <div class="info-text">
+                    <h2><a href="#">Update Training Trend</a></h2>
+                    <p>At vero eos et accusamus et iusto odio <br>
+                       dignissimos ducimus qui blanditiis prae- <br>
+                       sentium voluptatum deleniti</p> <br>
+                </div>
+                <!-- Info Footer -->
+                <div class="info-footer">
+                    <div class="bi-cata">
+                        Health & Beauty
+                        <span></span>
+                    </div>
+                <!-- Social Media Icon -->    
+                <div class="bi-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>    
+                </div>
+
+            </div>
+         </div>
+         
+         <!-- 3rd Pricing Section -->
+        <!-- First Album -->
+        <div class="album">
+            <div class="first-album">
+                <!-- Image -->
+                <div class="first-img">
+                    <img src="about-img/course-7.webp" alt="course-7">
+                  </div>
+                  <!-- Info Text -->
+                <div class="info-text">
+                    <h2><a href="#">Have a Toned Body</a></h2>
+                    <p>Regular practice with breathing tech- <br>
+                       niques in Yoga will help you get a toned <br>
+                       body, this is the perfect choice</p> <br>
+                </div>
+                <!-- Info Footer -->
+                <div class="info-footer">
+                    <div class="bi-cata">
+                        Health & Beauty
+                        <span></span>
+                    </div>
+                <!-- Social Media Icon -->    
+                <div class="bi-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>    
+                </div>
+
+            </div>
+         </div>
+        
+        <!-- Second Album -->
+         <div class="album">
+            <div class="first-album">
+                <!-- Image -->
+                <div class="first-img">
+                    <img src="about-img/course-8.webp" alt="course-8">
+                  </div>
+                   <!-- Info Text -->
+                  <div class="info-text">
+                    <h2><a href="#">Rapid Weight Loss</a></h2>
+                    <p>To take a trivial example, which of us ever <br>
+                       undertakes laborious physical exercise, <br>
+                       except to obtain</p> <br>
+                </div>
+                <!-- Info Footer -->
+                <div class="info-footer">
+                    <div class="bi-cata">
+                        Health & Beauty
+                        <span></span>
+                    </div>
+                <!-- Social Media Icon -->    
+                <div class="bi-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>    
+                </div>
+
+            </div>
+         </div>
+        
+        <!-- Third Album -->
+         <div class="album">
+            <div class="first-album">
+                <!-- Image -->
+                <div class="first-img">
+                    <img src="about-img/course-9.webp" alt="course-9">
+                  </div>
+                   <!-- Info Text -->
+                  <div class="info-text">
+                    <h2><a href="#">Healthy Eating Mode</a></h2>
+                    <p>At vero eos et accusamus et iusto odio <br>
+                       dignissimos ducimus qui blanditiis prae- <br>
+                       sentium voluptatum deleniti</p> <br>
+                </div>
+                <!-- Info Footer -->
+                <div class="info-footer">
+                    <div class="bi-cata">
+                        Health & Beauty
+                        <span></span>
+                    </div>
+                <!-- Social Media Icon -->    
+                <div class="bi-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>    
+                </div>
+
+            </div>
+         </div>       
+
+    </div>
+
+                               <!-- Gallery Section -->
+    <div class="gallery-section">
+        <img src="images/gallery-1.webp" alt="gallery-1">
+        <img src="images/gallery-2.webp" alt="gallery-2">
+        <img src="images/gallery-3.webp" alt="gallery-3">
+        <img src="images/gallery-4.webp" alt="gallery-4">
+        <img src="images/gallery-5.webp" alt="gallery-5">
+        <img src="images/gallery-6.webp" alt="gallery-6">
+    </div>
+
+                                <!-- Footer Section -->
+     <div class="footer-section">
+        <!-- Colums Section -->
+        <div class="footer-colums">
+             <!-- First Colums -->
+         <div class="first-text">
+            <img src="images/footer-logo.webp" alt="footer-logo">
+            <p>Lorem ipsum dolor sit amet, consec- <br>
+               tetur adipiscing elit sed.</p>
+               <ul>
+                <li><i class="fa-solid fa-phone"></i>(965) 436 3274</li>
+                <li><i class="fa-solid fa-envelope"></i>ahana.yoga@gmail.com</li>
+                <li><i class="fa-solid fa-map-location"></i>184 Main Collins Street</li>
+              </ul>
+         </div>
+      
+         <!-- Second Colums -->
+         <div class="second-text">
+            <h2>Company</h2>
+            <ul class="list-link">
+                <li><a href="#">Online Education</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Special Issues</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+         </div>
+      
+          <!-- Third Colums -->
+          <div class="third-text">
+            <h2>About Us</h2>
+            <ul class="list-link-third">
+              <li><a href="#">Our Vision</a></li>
+              <li><a href="#">Our Mission</a></li>
+              <li><a href="#">Meet The Team</a></li>
+              <li><a href="#">Introduce</a></li>
+              <li><a href="#">Customer Service</a></li>
+            </ul>
+         </div>
+      
+          <!-- Fourth Colums -->
+          <div class="fourth-text">
+            <h2>Open Time</h2>
+            <ul>
+              <li><i class="fa-regular fa-clock"></i>Mon - Fri:  6:30am - 07:45pm</li>
+              <li><i class="fa-regular fa-clock"></i>Sat - Sun:  8:30am - 05:45pm</li>
+            </ul>
+          </div>
+        </div>      
+      </div>
+
+    <!-- JavaScript Swiper CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script defer src="index.js"></script>
+
+</body>
+</html>
